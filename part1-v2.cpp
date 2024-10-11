@@ -20,6 +20,7 @@ int main() {
             result = p_arr[i]*p_arr[i];
         }
     }
+    delete [] p_arr;
     cout << endl << "Максимальный квадрат числа = " << result;
     return 0;
 }
